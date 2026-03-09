@@ -1,0 +1,25 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Welcome"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:text="Book your medical appointment easily."
+        android:textSize="16sp"
+        android:padding="10dp"/>
+
+    <Button
+        android:id="@+id/btnBook"
+        android:text="Book Appointment"
+        android:backgroundTint="@color/purplePrimary"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
